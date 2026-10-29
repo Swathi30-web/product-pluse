@@ -1,3 +1,4 @@
+
 {
   "name": "productpulse",
   "private": true,
@@ -5,10 +6,11 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently -n api,web -c yellow,cyan \"npm:server\" \"vite\"",
-    "server": "json-server --watch db.json --port 3001",
+    "server": "json-server --watch db.json --host 0.0.0.0 --port 3001",
+    "start": "node server.mjs",
     "seed": "node scripts/seed.mjs",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
     "axios": "^1.7.2",
