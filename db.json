@@ -1,0 +1,1161 @@
+{
+  "users": [
+    {
+      "name": "Alex Morgan",
+      "email": "alex@acme.com",
+      "password": "demo123",
+      "id": 1
+    },
+    {
+      "name": "Priya Shah",
+      "email": "priya@acme.com",
+      "password": "demo123",
+      "id": 2
+    },
+    {
+      "name": "Sam Lee",
+      "email": "sam@acme.com",
+      "password": "demo123",
+      "id": 3
+    },
+    {
+      "name": "Jordan Blake",
+      "email": "jordan@customer.com",
+      "password": "demo123",
+      "id": 4
+    },
+    {
+      "name": "Taylor Reed",
+      "email": "taylor@customer.com",
+      "password": "demo123",
+      "id": 5
+    },
+    {
+      "name": "Riley Chen",
+      "email": "riley@customer.com",
+      "password": "demo123",
+      "id": 6
+    },
+    {
+      "name": "swathi",
+      "email": "swathisudar623@gmail.com",
+      "password": "demo123",
+      "id": 7
+    }
+  ],
+  "workspaces": [
+    {
+      "name": "Acme Cloud",
+      "slug": "acme-cloud",
+      "description": "Feedback hub for the Acme Cloud platform.",
+      "logoUrl": "",
+      "brandColor": "#4f46e5",
+      "publicRoadmap": true,
+      "createdAt": "2026-07-24T09:42:09.876Z",
+      "id": 1
+    },
+    {
+      "name": "Nova Analytics",
+      "slug": "nova-analytics",
+      "description": "Roadmap and ideas for Nova Analytics.",
+      "logoUrl": "",
+      "brandColor": "#059669",
+      "publicRoadmap": true,
+      "createdAt": "2026-09-12T09:42:09.876Z",
+      "id": 2
+    }
+  ],
+  "workspaceMembers": [
+    {
+      "workspaceId": 1,
+      "userId": 1,
+      "role": "owner",
+      "status": "active",
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "userId": 2,
+      "role": "admin",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "userId": 3,
+      "role": "pm",
+      "status": "active",
+      "id": 3
+    },
+    {
+      "workspaceId": 1,
+      "userId": 4,
+      "role": "customer",
+      "status": "active",
+      "id": 4
+    },
+    {
+      "workspaceId": 1,
+      "userId": 5,
+      "role": "customer",
+      "status": "active",
+      "id": 5
+    },
+    {
+      "workspaceId": 1,
+      "userId": 6,
+      "role": "customer",
+      "status": "invited",
+      "id": 6
+    },
+    {
+      "workspaceId": 2,
+      "userId": 2,
+      "role": "owner",
+      "status": "active",
+      "id": 7
+    },
+    {
+      "workspaceId": 2,
+      "userId": 1,
+      "role": "admin",
+      "status": "active",
+      "id": 8
+    },
+    {
+      "workspaceId": 2,
+      "userId": 4,
+      "role": "customer",
+      "status": "active",
+      "id": 9
+    },
+    {
+      "workspaceId": 1,
+      "userId": 7,
+      "role": "admin",
+      "status": "active",
+      "id": 10
+    }
+  ],
+  "categories": [
+    {
+      "workspaceId": 1,
+      "name": "Integrations",
+      "color": "#6366f1",
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "name": "Reporting",
+      "color": "#0ea5e9",
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "name": "UX",
+      "color": "#ec4899",
+      "id": 3
+    },
+    {
+      "workspaceId": 1,
+      "name": "Performance",
+      "color": "#f59e0b",
+      "id": 4
+    },
+    {
+      "workspaceId": 1,
+      "name": "Security",
+      "color": "#ef4444",
+      "id": 5
+    },
+    {
+      "workspaceId": 2,
+      "name": "Dashboards",
+      "color": "#10b981",
+      "id": 6
+    },
+    {
+      "workspaceId": 2,
+      "name": "Data Sources",
+      "color": "#3b82f6",
+      "id": 7
+    },
+    {
+      "workspaceId": 2,
+      "name": "Alerts",
+      "color": "#f97316",
+      "id": 8
+    }
+  ],
+  "tags": [
+    {
+      "workspaceId": 1,
+      "name": "api",
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "name": "mobile",
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "name": "quick-win",
+      "id": 3
+    },
+    {
+      "workspaceId": 1,
+      "name": "enterprise",
+      "id": 4
+    },
+    {
+      "workspaceId": 1,
+      "name": "accessibility",
+      "id": 5
+    },
+    {
+      "workspaceId": 2,
+      "name": "ux",
+      "id": 6
+    },
+    {
+      "workspaceId": 2,
+      "name": "sql",
+      "id": 7
+    },
+    {
+      "workspaceId": 2,
+      "name": "export",
+      "id": 8
+    }
+  ],
+  "feedback": [
+    {
+      "workspaceId": 1,
+      "title": "Slack integration for notifications",
+      "description": "Send alerts and status changes to a Slack channel so the whole team sees them.",
+      "categoryId": 1,
+      "tagIds": [
+        1,
+        3
+      ],
+      "submitterId": 4,
+      "priority": "high",
+      "status": "planned",
+      "duplicateOf": null,
+      "createdAt": "2026-08-23T09:42:09.876Z",
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "title": "Scheduled PDF reports",
+      "description": "We need weekly PDF reports emailed to stakeholders automatically.",
+      "categoryId": 2,
+      "tagIds": [
+        4
+      ],
+      "submitterId": 5,
+      "priority": "high",
+      "status": "in_progress",
+      "duplicateOf": null,
+      "createdAt": "2026-08-28T09:42:09.876Z",
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "title": "Dark mode",
+      "description": "A dark theme would help during long working sessions.",
+      "categoryId": 3,
+      "tagIds": [
+        5,
+        3
+      ],
+      "submitterId": 4,
+      "priority": "medium",
+      "status": "under_review",
+      "duplicateOf": null,
+      "createdAt": "2026-09-02T09:42:09.876Z",
+      "id": 3
+    },
+    {
+      "workspaceId": 1,
+      "title": "Faster dashboard load times",
+      "description": "The main dashboard takes over 6 seconds to load with large datasets.",
+      "categoryId": 4,
+      "tagIds": [],
+      "submitterId": 5,
+      "priority": "critical",
+      "status": "in_progress",
+      "duplicateOf": null,
+      "createdAt": "2026-09-07T09:42:09.876Z",
+      "id": 4
+    },
+    {
+      "workspaceId": 1,
+      "title": "Single sign-on (SAML)",
+      "description": "Enterprise customers require SAML SSO to adopt the product.",
+      "categoryId": 5,
+      "tagIds": [
+        4
+      ],
+      "submitterId": 6,
+      "priority": "high",
+      "status": "planned",
+      "duplicateOf": null,
+      "createdAt": "2026-09-12T09:42:09.876Z",
+      "id": 5
+    },
+    {
+      "workspaceId": 1,
+      "title": "Mobile app",
+      "description": "Native mobile app for iOS and Android to review data on the go.",
+      "categoryId": 3,
+      "tagIds": [
+        2
+      ],
+      "submitterId": 4,
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-09-17T09:42:09.876Z",
+      "id": 6
+    },
+    {
+      "workspaceId": 1,
+      "title": "Slack alerts please",
+      "description": "Would love to get notifications inside Slack.",
+      "categoryId": 1,
+      "tagIds": [
+        1
+      ],
+      "submitterId": 5,
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": 1,
+      "createdAt": "2026-09-22T09:42:09.876Z",
+      "id": 7
+    },
+    {
+      "workspaceId": 1,
+      "title": "Public REST API",
+      "description": "Expose a documented public API for custom integrations.",
+      "categoryId": 1,
+      "tagIds": [
+        1,
+        4
+      ],
+      "submitterId": 4,
+      "priority": "high",
+      "status": "completed",
+      "duplicateOf": null,
+      "createdAt": "2026-09-24T09:42:09.876Z",
+      "id": 8
+    },
+    {
+      "workspaceId": 1,
+      "title": "Export reports to CSV",
+      "description": "Allow exporting any report table as CSV.",
+      "categoryId": 2,
+      "tagIds": [
+        3
+      ],
+      "submitterId": 5,
+      "priority": "low",
+      "status": "completed",
+      "duplicateOf": null,
+      "createdAt": "2026-09-27T09:42:09.876Z",
+      "id": 9
+    },
+    {
+      "workspaceId": 1,
+      "title": "Keyboard navigation",
+      "description": "Full keyboard accessibility for forms and menus.",
+      "categoryId": 3,
+      "tagIds": [
+        5
+      ],
+      "submitterId": 6,
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-07T09:42:09.876Z",
+      "id": 10
+    },
+    {
+      "workspaceId": 1,
+      "title": "Audit log export",
+      "description": "Admins need to export the audit log for compliance reviews.",
+      "categoryId": 5,
+      "tagIds": [
+        4
+      ],
+      "submitterId": 4,
+      "priority": "medium",
+      "status": "under_review",
+      "duplicateOf": null,
+      "createdAt": "2026-10-12T09:42:09.876Z",
+      "id": 11
+    },
+    {
+      "workspaceId": 1,
+      "title": "Bulk edit feedback",
+      "description": "Select multiple items and change status at once.",
+      "categoryId": 3,
+      "tagIds": [
+        3
+      ],
+      "submitterId": 5,
+      "priority": "low",
+      "status": "declined",
+      "duplicateOf": null,
+      "createdAt": "2026-10-17T09:42:09.876Z",
+      "id": 12
+    },
+    {
+      "workspaceId": 2,
+      "title": "Drag-and-drop dashboard builder",
+      "description": "Let users arrange widgets freely.",
+      "categoryId": 1,
+      "tagIds": [
+        1
+      ],
+      "submitterId": 4,
+      "priority": "high",
+      "status": "planned",
+      "duplicateOf": null,
+      "createdAt": "2026-09-22T09:42:09.876Z",
+      "id": 13
+    },
+    {
+      "workspaceId": 2,
+      "title": "Connect PostgreSQL directly",
+      "description": "Native PostgreSQL connector.",
+      "categoryId": 2,
+      "tagIds": [
+        2
+      ],
+      "submitterId": 4,
+      "priority": "critical",
+      "status": "in_progress",
+      "duplicateOf": null,
+      "createdAt": "2026-09-24T09:42:09.876Z",
+      "id": 14
+    },
+    {
+      "workspaceId": 2,
+      "title": "Email alert thresholds",
+      "description": "Configure thresholds that trigger email alerts.",
+      "categoryId": 3,
+      "tagIds": [],
+      "submitterId": 4,
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-09-26T09:42:09.876Z",
+      "id": 15
+    },
+    {
+      "workspaceId": 2,
+      "title": "Export charts as PNG",
+      "description": "Download any chart as an image.",
+      "categoryId": 1,
+      "tagIds": [
+        3
+      ],
+      "submitterId": 4,
+      "priority": "low",
+      "status": "completed",
+      "duplicateOf": null,
+      "createdAt": "2026-09-28T09:42:09.876Z",
+      "id": 16
+    },
+    {
+      "workspaceId": 2,
+      "title": "Dashboard builder with drag drop",
+      "description": "Same as drag-and-drop widgets request.",
+      "categoryId": 1,
+      "tagIds": [
+        1
+      ],
+      "submitterId": 4,
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": 13,
+      "createdAt": "2026-10-02T09:42:09.876Z",
+      "id": 17
+    },
+    {
+      "workspaceId": 2,
+      "title": "Saved filters",
+      "description": "Persist my filters between sessions.",
+      "categoryId": 1,
+      "tagIds": [
+        1
+      ],
+      "submitterId": 4,
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-07T09:42:09.876Z",
+      "id": 18
+    },
+    {
+      "workspaceId": 2,
+      "title": "Dark chart palette",
+      "description": "Color-blind-friendly palette.",
+      "categoryId": 1,
+      "tagIds": [
+        1
+      ],
+      "submitterId": 4,
+      "priority": "low",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-10T09:42:09.876Z",
+      "id": 19
+    },
+    {
+      "workspaceId": 2,
+      "title": "Query history",
+      "description": "See previous SQL queries.",
+      "categoryId": 2,
+      "tagIds": [
+        2
+      ],
+      "submitterId": 4,
+      "priority": "medium",
+      "status": "under_review",
+      "duplicateOf": null,
+      "createdAt": "2026-10-13T09:42:09.876Z",
+      "id": 20
+    }
+  ],
+  "votes": [
+    {
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 4,
+      "id": 4
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 5,
+      "id": 5
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 4,
+      "id": 9
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 5,
+      "id": 10
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 3,
+      "id": 13
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 4,
+      "id": 14
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 5,
+      "id": 15
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 1,
+      "id": 16
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 2,
+      "id": 17
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 3,
+      "id": 18
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 4,
+      "id": 19
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 5,
+      "id": 20
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 7,
+      "userId": 1,
+      "id": 21
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 7,
+      "userId": 2,
+      "id": 22
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 7,
+      "userId": 3,
+      "id": 23
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 7,
+      "userId": 4,
+      "id": 24
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 7,
+      "userId": 5,
+      "id": 25
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 8,
+      "userId": 1,
+      "id": 26
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 8,
+      "userId": 2,
+      "id": 27
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 8,
+      "userId": 3,
+      "id": 28
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 8,
+      "userId": 4,
+      "id": 29
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 8,
+      "userId": 5,
+      "id": 30
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 10,
+      "userId": 1,
+      "id": 31
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 10,
+      "userId": 2,
+      "id": 32
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 10,
+      "userId": 3,
+      "id": 33
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 10,
+      "userId": 4,
+      "id": 34
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 10,
+      "userId": 5,
+      "id": 35
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 11,
+      "userId": 1,
+      "id": 36
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 11,
+      "userId": 2,
+      "id": 37
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 11,
+      "userId": 3,
+      "id": 38
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 11,
+      "userId": 4,
+      "id": 39
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 11,
+      "userId": 5,
+      "id": 40
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 13,
+      "userId": 2,
+      "id": 41
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 13,
+      "userId": 1,
+      "id": 42
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 13,
+      "userId": 4,
+      "id": 43
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 14,
+      "userId": 2,
+      "id": 44
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 14,
+      "userId": 1,
+      "id": 45
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 14,
+      "userId": 4,
+      "id": 46
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 16,
+      "userId": 2,
+      "id": 47
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 16,
+      "userId": 1,
+      "id": 48
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 16,
+      "userId": 4,
+      "id": 49
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 17,
+      "userId": 2,
+      "id": 50
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 17,
+      "userId": 1,
+      "id": 51
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 17,
+      "userId": 4,
+      "id": 52
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 19,
+      "userId": 2,
+      "id": 53
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 19,
+      "userId": 1,
+      "id": 54
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 19,
+      "userId": 4,
+      "id": 55
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 20,
+      "userId": 2,
+      "id": 56
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 20,
+      "userId": 1,
+      "id": 57
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 20,
+      "userId": 4,
+      "id": 58
+    }
+  ],
+  "comments": [
+    {
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 4,
+      "body": "This would save us hours every week.",
+      "createdAt": "2026-10-12T09:42:09.876Z",
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 2,
+      "body": "Scoping this with the team now.",
+      "createdAt": "2026-10-13T09:42:09.876Z",
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 3,
+      "body": "Profiling started, root cause is the aggregation query.",
+      "createdAt": "2026-10-14T09:42:09.876Z",
+      "id": 3
+    },
+    {
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 6,
+      "body": "Our security team needs this before rollout.",
+      "createdAt": "2026-10-15T09:42:09.876Z",
+      "id": 4
+    },
+    {
+      "workspaceId": 2,
+      "feedbackId": 13,
+      "userId": 1,
+      "body": "Great idea, planned for next quarter.",
+      "createdAt": "2026-10-16T09:42:09.876Z",
+      "id": 5
+    }
+  ],
+  "roadmapItems": [
+    {
+      "workspaceId": 1,
+      "title": "Slack integration",
+      "description": "Post updates to Slack channels.",
+      "stage": "planned",
+      "feedbackIds": [
+        1,
+        7
+      ],
+      "published": true,
+      "createdAt": "2026-10-02T09:42:09.876Z",
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "title": "Scheduled reports",
+      "description": "Weekly PDF reports by email.",
+      "stage": "in_progress",
+      "feedbackIds": [
+        2
+      ],
+      "published": true,
+      "createdAt": "2026-10-04T09:42:09.876Z",
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "title": "Dashboard performance",
+      "description": "Query caching and lazy loading.",
+      "stage": "in_progress",
+      "feedbackIds": [
+        4
+      ],
+      "published": true,
+      "createdAt": "2026-10-05T09:42:09.876Z",
+      "id": 3
+    },
+    {
+      "workspaceId": 1,
+      "title": "SAML SSO",
+      "description": "Enterprise single sign-on.",
+      "stage": "under_review",
+      "feedbackIds": [
+        5
+      ],
+      "published": true,
+      "createdAt": "2026-10-07T09:42:09.876Z",
+      "id": 4
+    },
+    {
+      "workspaceId": 1,
+      "title": "Public API v1",
+      "description": "REST API with API keys.",
+      "stage": "completed",
+      "feedbackIds": [
+        8
+      ],
+      "published": true,
+      "createdAt": "2026-09-12T09:42:09.876Z",
+      "id": 5
+    },
+    {
+      "workspaceId": 1,
+      "title": "CSV export",
+      "description": "Export tables as CSV.",
+      "stage": "completed",
+      "feedbackIds": [
+        9
+      ],
+      "published": true,
+      "createdAt": "2026-09-22T09:42:09.876Z",
+      "id": 6
+    },
+    {
+      "workspaceId": 1,
+      "title": "Internal admin tooling",
+      "description": "Not ready to publish yet.",
+      "stage": "under_review",
+      "feedbackIds": [],
+      "published": false,
+      "createdAt": "2026-10-17T09:42:09.876Z",
+      "id": 7
+    },
+    {
+      "workspaceId": 2,
+      "title": "Dashboard builder",
+      "description": "Drag-and-drop widgets.",
+      "stage": "planned",
+      "feedbackIds": [
+        13,
+        17
+      ],
+      "published": true,
+      "createdAt": "2026-10-12T09:42:09.876Z",
+      "id": 8
+    },
+    {
+      "workspaceId": 2,
+      "title": "PostgreSQL connector",
+      "description": "Native connector.",
+      "stage": "in_progress",
+      "feedbackIds": [
+        14
+      ],
+      "published": true,
+      "createdAt": "2026-10-13T09:42:09.876Z",
+      "id": 9
+    },
+    {
+      "workspaceId": 2,
+      "title": "PNG chart export",
+      "description": "Export charts as image.",
+      "stage": "completed",
+      "feedbackIds": [
+        16
+      ],
+      "published": true,
+      "createdAt": "2026-10-14T09:42:09.876Z",
+      "id": 10
+    }
+  ],
+  "releaseNotes": [
+    {
+      "workspaceId": 1,
+      "version": "1.2.0",
+      "title": "Public API & CSV export",
+      "releaseDate": "2026-09-27",
+      "summary": "Introducing the public REST API and CSV export for every report.",
+      "roadmapItemIds": [
+        5,
+        6
+      ],
+      "status": "published",
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "version": "1.3.0",
+      "title": "Scheduled reports",
+      "releaseDate": "2026-10-29",
+      "summary": "Upcoming release with scheduled PDF reports.",
+      "roadmapItemIds": [],
+      "status": "draft",
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "version": "1.0.0",
+      "title": "Initial launch",
+      "releaseDate": "2026-07-24",
+      "summary": "First public release of Acme Cloud.",
+      "roadmapItemIds": [],
+      "status": "archived",
+      "id": 3
+    },
+    {
+      "workspaceId": 2,
+      "version": "0.5.0",
+      "title": "Chart export",
+      "releaseDate": "2026-10-14",
+      "summary": "Export charts as PNG images.",
+      "roadmapItemIds": [
+        10
+      ],
+      "status": "published",
+      "id": 4
+    }
+  ],
+  "subscriptionPlans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "price": 0,
+      "maxMembers": 5,
+      "maxFeedback": 10,
+      "maxRoadmap": 5
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "price": 29,
+      "maxMembers": 50,
+      "maxFeedback": 500,
+      "maxRoadmap": 100
+    }
+  ],
+  "workspaceSubscriptions": [
+    {
+      "workspaceId": 1,
+      "planId": "pro",
+      "id": 1
+    },
+    {
+      "workspaceId": 2,
+      "planId": "free",
+      "id": 2
+    }
+  ],
+  "activityLogs": [
+    {
+      "workspaceId": 1,
+      "userId": 1,
+      "action": "created workspace",
+      "createdAt": "2026-10-02T09:42:09.877Z",
+      "id": 1
+    },
+    {
+      "workspaceId": 1,
+      "userId": 4,
+      "action": "submitted feedback \"Slack integration for notifications\"",
+      "createdAt": "2026-10-06T09:42:09.877Z",
+      "id": 2
+    },
+    {
+      "workspaceId": 1,
+      "userId": 3,
+      "action": "moved \"Scheduled reports\" to In Progress",
+      "createdAt": "2026-10-10T09:42:09.877Z",
+      "id": 3
+    },
+    {
+      "workspaceId": 2,
+      "userId": 2,
+      "action": "created workspace",
+      "createdAt": "2026-10-14T09:42:09.877Z",
+      "id": 4
+    },
+    {
+      "workspaceId": 1,
+      "userId": 1,
+      "action": "added swathi as Admin",
+      "createdAt": "2026-10-22T10:33:42.570Z",
+      "id": 5
+    }
+  ]
+}
